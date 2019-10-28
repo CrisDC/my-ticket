@@ -1,13 +1,42 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>MyTikect</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="utf-8">
+    <title>My Ticket</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CoreUI CSS -->
+    <meta name="description" content="CoreUI - Free Angular Admin Template">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
-  <app-root></app-root>
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <h4 class="text-white">Collapsed content</h4>
+                <span class="text-muted">Toggleable via the navbar brand.</span>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+        </nav>
+    </div>
+    <app-root></app-root>
+    <app-navbar></app-navbar>
 </body>
+<footer class="app-footer">
+    <div>
+        <a href="https://coreui.io">FISI</a>
+        <span>&copy; 2019 creativeLabs.</span>
+    </div>
+    <div class="ml-auto">
+        <span>Powered by</span>
+        <a href="https://coreui.io">FISI - UNMSM</a>
+    </div>
+</footer>
+
 </html>
