@@ -9,6 +9,7 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { SidebarComponent } from './shared/components/sidebar/sidebar.component';
 import { BodyComponent } from './shared/components/body/body.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
+import { HomeComponent } from './shared/components/home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { FooterComponent } from './shared/components/footer/footer.component';
     HeaderComponent,
     SidebarComponent,
     BodyComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
