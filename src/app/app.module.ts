@@ -11,6 +11,7 @@ import { BodyComponent } from './shared/components/body/body.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { HomeComponent } from './shared/components/home/home.component';
 import { CardsComponent } from './shared/components/cards/cards.component';
+import { ListaDeseosComponent } from './shared/components/lista-deseos/lista-deseos.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { CardsComponent } from './shared/components/cards/cards.component';
     BodyComponent,
     FooterComponent,
     HomeComponent,
-    CardsComponent
+    CardsComponent,
+    ListaDeseosComponent
   ],
   imports: [
     BrowserModule,
