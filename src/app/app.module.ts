@@ -12,6 +12,8 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import { HomeComponent } from './shared/components/home/home.component';
 import { CardsComponent } from './shared/components/cards/cards.component';
 import { ListaDeseosComponent } from './shared/components/lista-deseos/lista-deseos.component';
+import { EventoComponent } from './shared/components/evento/evento.component';
+import { ResultadosBusquedaComponent } from './shared/components/resultados-busqueda/resultados-busqueda.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,9 @@ import { ListaDeseosComponent } from './shared/components/lista-deseos/lista-des
     FooterComponent,
     HomeComponent,
     CardsComponent,
-    ListaDeseosComponent
+    ListaDeseosComponent,
+    EventoComponent,
+    ResultadosBusquedaComponent
   ],
   imports: [
     BrowserModule,

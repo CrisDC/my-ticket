@@ -11,6 +11,14 @@
     </a>
 
     <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item pr-4">
+            <input class="form-control form-control-sm" type="text" placeholder="Hamlet">
+        </li>
+        <li class="nav-item pr-2" routerLinkActive="router-link-active">
+            <a class="nav-link" [routerLink]="['resultado-busqueda']">
+                <span class="d-block text-center"><i class="fa fa-search fa-2x text-info"></i></span><small> Busqueda</small>
+            </a>
+        </li>
         <li class="nav-item pr-2" routerLinkActive="active">
             <a class="nav-link" routerLink="organization">
                 <span class="d-block text-center"><i class="fa fa-bullhorn fa-2x text-info"></i></span><small> Centro de organizacion </small>
@@ -21,8 +29,8 @@
                 <span class="d-block text-center"><i class="fa fa-question-circle fa-2x text-primary"></i></span><small> Ayuda </small>
             </a>
         </li>
-        <li class="nav-item pr-2">
-            <a class="nav-link" [routerLink]="['ListaDeseos']" routerLinkActive="router-link-active">
+        <li class="nav-item pr-2" routerLinkActive="router-link-active">
+            <a class="nav-link" [routerLink]="['ListaDeseos']">
                 <span class="d-block text-center"><i class="fa fa-heart fa-2x text-danger"></i></span><small> Lista de deseos </small>
             </a>
         </li>
@@ -85,7 +93,7 @@
                                 <button type="button" class="btn btn-pill btn-outline-primary btn-lg d-flex justify-content-center m-lg-2">Registrame</button>
                             </div>
                             <div class="row d-flex justify-content-center m-lg-2">
-                                <h5 class="modal-title text-dark m-lg-1">¿No tienes una cuenta aun? <strong class="h4" data-toggle="modal" data-target="#exampleModalCenter" data-dismiss="modal">Registrarme</strong></h5>
+                                <h5 class="modal-title text-dark m-lg-1">¿No tienes una cuenta aun? <strong class="h4" data-toggle="modal" data-target="#exampleModalCenter" data-dismiss="modal" style="cursor:pointer;">Registrarme</strong></h5>
                             </div>
 
                         </div>
